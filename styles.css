@@ -1,0 +1,72 @@
+body{
+    margin : 0px;
+}
+
+.top{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+img {
+    height: 150px;
+    width: 150px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 8px;
+}
+
+.links{
+
+}
+.image-2{
+    height: 300px;
+    width: auto;
+}
+
+.down{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Photos{
+    display: flex;
+    justify-content: center;
+}
+
+.classical{
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4px;
+}
+
+.Relative{
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4px;
+}
+
+.astro{
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4px;
+}
+
+.quantum{
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4px;
+}
+
+.words{
+    background-color: #E5E7EB;
+}
+
+.bottom{
+    background-color: #3882F6;
+}
+
+.footer{
+    background-color: #1F2937;
+}
