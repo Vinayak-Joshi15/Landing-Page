@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body{
+    font-family: Roboto, sans-serif;
     margin : 0px;
 }
 
+
 .top{
     background-color: #1F2937;
+    padding: 8px;
     color: #F9FAF8;
 }
+
 img {
     height: 150px;
     width: 150px;
@@ -17,8 +23,27 @@ img {
     padding: 8px;
 }
 
-.links{
+a {
+    padding: 8px;
+    margin: 8px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
 
+.content-1 p {
+    color: #E5E7EB;
+}
+
+.top p{
+    font: 18px #E5E7EB;
+}
+
+.top button{
+    background-color: #3882F6;
+    padding: 8px;
+    border: 0px;
+    color:#F9FAF8;
+    border-radius: 4px;
 }
 .image-2{
     height: 300px;
@@ -30,9 +55,16 @@ img {
     justify-content: space-around;
 }
 
-.Photos{
+.content-2{
     display: flex;
     justify-content: center;
+    font: 36px extra-bold #1F2937;
+    margin: 8px;
+}
+
+.Photos{
+    display: flex;
+    justify-content: space-around;
 }
 
 .classical{
@@ -60,13 +92,86 @@ img {
 }
 
 .words{
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    padding: 48px;
 }
 
-.bottom{
+.words .quote p{
+    display: flex;
+    font: 36px italic white;
+    font-weight: 100;
+}
+
+.sayer {
+    display: flex;
+    justify-content: end;
+    font: 48px #1F2937;
+    font-weight: bold;
+}
+
+.bottom {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 48px;
+}
+
+.signup{
+    border-radius: 4px;
+    padding: 48px;
+}
+.stuff{
+    display: flex;
+    justify-content: center;
     background-color: #3882F6;
+    border-radius: 4px;
+
+}
+.content-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+    font-size: 32px;
+
 }
 
+.content-3 .p1{
+    font-size: 32px;
+    color: white;
+}
+
+.content-3 .p2 {
+    font-size: 16px;
+    color: white;
+
+}
+
+.button-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 48px;
+}
+
+.button-1 button{
+    background-color: #3882F6;
+    color: white;
+    font-style: italic;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
 .footer{
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
     background-color: #1F2937;
 }
